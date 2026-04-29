@@ -619,7 +619,7 @@ body {
    }
 }
 .container_carru #items #item {
-    display: none;
+    display: block;
     height: 80%;
     position: absolute;
 }
