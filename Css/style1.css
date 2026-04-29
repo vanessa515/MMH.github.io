@@ -1,0 +1,95 @@
+
+.blog {
+    background: #f9f9f9;
+    padding: 4.5rem 0;
+}
+
+/* Contenedor para la sección del blog */
+.container-blog {
+    /* Agrega estilos específicos si es necesario */
+}
+
+/* Estilos para el título de la sección del blog */
+.title {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.title h2 {
+    font-family: var(--Playfair);
+    font-size: 4rem;
+
+}
+
+.title p {
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+}
+
+/* Estilos para el contenido del blog */
+.blog-content {
+    margin: 2rem 0;
+    overflow: hidden; /* Evita que el contenido se desborde */
+    display: flex;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 2rem;
+    flex-wrap: wrap; /* Permite que las tarjetas se muevan a una nueva línea si no hay suficiente espacio */
+}
+
+
+/* Estilos para cada artículo del blog */
+.blog-item {
+    max-width: 300px; /* Ajusta el ancho máximo de cada tarjeta */
+    border: 1px solid #ccc; /* Añade un borde opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra opcional */
+    margin: 1rem; /* Añade espacio entre las tarjetas */
+}
+
+/* Estilos para la imagen en cada artículo del blog */
+.blog-img {
+    position: relative;
+}
+
+.blog-img img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+/* Estilos para el texto en cada artículo del blog */
+.blog-text {
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+
+.blog-text span {
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+.blog-text h2 {
+    font-family: var(--Playfair);
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+
+.blog-text p {
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+}
+
+.blog-text a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-block;
+    background: #3c393d;
+    color: #fff;
+    padding: 0.55rem 1.2rem;
+}
+
+.blog-text a:hover {
+    background: var(--exDark);
+}
