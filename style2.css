@@ -1,0 +1,228 @@
+
+.contact_form {
+    width: 80%; /* Usa porcentajes para hacerlo más flexible */
+    max-width: 500px; /* Limita el ancho máximo para que no se estire demasiado en pantallas grandes */
+    margin: 8% auto; /* Ajusta el margen para centrar verticalmente y horizontalmente */
+    border-radius: 10px;
+    padding: 5vw; /* Utiliza unidades de viewport para el relleno */
+    background-color: #fbfbfb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.contact_form input,
+.contact_form textarea {
+    background-color: white;
+    width: 100%;
+    height: 5vw; /* Utiliza unidades de viewport para la altura */
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 2vw; /* Utiliza unidades de viewport para el margen superior */
+    padding: 1vw; /* Utiliza unidades de viewport para el relleno */
+    margin-bottom: 4vw; /* Utiliza unidades de viewport para el margen inferior */
+}
+
+.contact_form textarea {
+    height: 15vw; /* Utiliza unidades de viewport para la altura del textarea */
+    padding-top: 2vw; /* Utiliza unidades de viewport para el relleno superior del textarea */
+}
+
+.contact_form label {
+    display: block;
+    margin-bottom: 1vw; /* Utiliza unidades de viewport para el margen inferior */
+}
+
+.contact_form button {
+    height: 5vw;
+    padding: 0.5vw 1vw; /* Utiliza unidades de viewport para el relleno */
+    margin-bottom: 4vw;
+    margin-top: 2vw;
+    text-transform: uppercase;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contact_form button p {
+    color: #fff;
+}
+
+.contact_form span {
+    color: #ab4493;
+}
+
+.contact_form .aviso {
+    font-size: 1.3vw; /* Utiliza unidades de viewport para el tamaño de fuente */
+    color: #0e0e0e;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+input{
+	background-color: white; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: black; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: black; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: orange; 
+	border-color: black; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 170px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #ab4493; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+.form_title {
+    font-size: 39px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: black;
+}
+
+
+
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+
+
+/* Estilos para todos los elementos p */
+p {
+    font-size: 14px;
+}
+
+/* Estilos específicos para los elementos p dentro del formulario */
+.formulario p.form_text {
+    color: #000000;
+}
+
+/* Estilos específicos para los elementos p dentro del blog */
+.blog-paragraph {
+    color: #000000;
+}
+
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+.card {
+    background-color: white; /* Color de fondo de las tarjetas */
+    border: 1px solid black; /* Borde de 1 píxel sólido en las tarjetas */
+    border-radius: 4px; /* Borde redondeado en las tarjetas */
+    padding: 30px; /* Espacio interno dentro de las tarjetas */
+    margin: 10px; /* Margen exterior alrededor de las tarjetas */
+    display: inline-block; /* Hace que las tarjetas se muestren una al lado de la otra */
+    width: 200px; /* Ancho de las tarjetas */
+    height: 200px; /* Altura de las tarjetas */
+    text-align: center; /* Centra el contenido de las tarjetas horizontalmente */
+}
+
+.card img {
+    width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+    height: 150px; /* Altura de la imagen dentro de la tarjeta */
+}
+
+
+.card1 {
+    background-color: red; /* Color de fondo de la tarjeta */
+    border: 1px solid #ccc; /* Borde de 1 píxel sólido alrededor de la tarjeta */
+    border-radius: 5px; /* Borde redondeado */
+    padding: 20px; /* Espacio interno alrededor del contenido de la tarjeta */
+    margin: 20px; /* Margen exterior alrededor de la tarjeta */
+}
+
+/* Estilos para el contenido dentro de la tarjeta */
+.card1 p {
+    font-size: 16px; /* Tamaño de fuente del texto dentro de la tarjeta */
+    color: white; /* Color del texto dentro de la tarjeta */
+}
+
+/* Estilos para la imagen a la izquierda del formulario */
+
+
